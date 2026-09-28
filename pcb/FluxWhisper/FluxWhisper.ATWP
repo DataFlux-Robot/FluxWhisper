@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <WorkBenchVersion>
+        <Version>V1.1.09</Version>
+    </WorkBenchVersion>
+    <MCUInfo>
+        <MCUSerials>AT32F435</MCUSerials>
+        <MCUName>AT32F435CCT7</MCUName>
+        <MCUPackage>LQFP48</MCUPackage>
+    </MCUInfo>
+    <ADC-Common>
+        <Mode>
+            <ModeSub name="Activated" value="TRUE"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="Clock" value="72000000"/>
+        </Parameters>
+    </ADC-Common>
+    <ADC1>
+        <Mode>
+            <ModeSub name="IN0" value="TRUE"/>
+            <ModeSub name="IN1" value="TRUE"/>
+            <ModeSub name="IN2" value="TRUE"/>
+            <ModeSub name="IN3" value="TRUE"/>
+            <ModeSub name="IN4" value="TRUE"/>
+            <ModeSub name="IN5" value="TRUE"/>
+            <ModeSub name="IN6" value="TRUE"/>
+            <ModeSub name="IN7" value="TRUE"/>
+            <ModeSub name="IN8" value="TRUE"/>
+            <ModeSub name="IN9" value="TRUE"/>
+        </Mode>
+    </ADC1>
+    <CRM>
+        <Mode>
+            <ModeSub name="HEXT" value="HEXT-External-Oscillator"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="HEXT" value="HEXT_CRYSTAL"/>
+        </Parameters>
+    </CRM>
+    <DEBUG>
+        <Mode>
+            <ModeSub name="Debug interface" value="SWD"/>
+        </Mode>
+    </DEBUG>
+    <SYSTEM>
+        <Mode>
+            <ModeSub name="Time_Base" value="SysTick"/>
+        </Mode>
+    </SYSTEM>
+    <USART1>
+        <Mode>
+            <ModeSub name="Mode" value="Asynchronous"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="RealBaudRate" value="115200"/>
+        </Parameters>
+    </USART1>
+    <USART6>
+        <Mode>
+            <ModeSub name="Mode" value="Asynchronous"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="RealBaudRate" value="115200"/>
+        </Parameters>
+    </USART6>
+    <UART7>
+        <Mode>
+            <ModeSub name="Mode" value="Asynchronous"/>
+        </Mode>
+        <Parameters>
+            <ParametersSub name="RealBaudRate" value="115200"/>
+        </Parameters>
+    </UART7>
+    <NVIC>
+        <SysTick_Handler>1;15;0;0;0</SysTick_Handler>
+        <FLASH_IRQHandler>0;0;0;0;0</FLASH_IRQHandler>
+        <CRM_IRQHandler>0;0;0;0;0</CRM_IRQHandler>
+        <ADC1_2_3_IRQHandler>0;0;0;0;0</ADC1_2_3_IRQHandler>
+        <USART1_IRQHandler>0;0;0;0;0</USART1_IRQHandler>
+        <USART6_IRQHandler>0;0;0;0;0</USART6_IRQHandler>
+        <DVP_IRQHandler>0;0;0;0;0</DVP_IRQHandler>
+        <FPU_IRQHandler>0;0;0;0;0</FPU_IRQHandler>
+        <UART7_IRQHandler>0;0;0;0;0</UART7_IRQHandler>
+    </NVIC>
+    <ClockConfiguration>
+        <rtcsel>0</rtcsel>
+        <rtcdiv>2</rtcdiv>
+        <hext>12.000000</hext>
+        <pllrcs>0</pllrcs>
+        <pllms>1</pllms>
+        <pllns>96</pllns>
+        <pllfr>4</pllfr>
+        <sclkselect>1</sclkselect>
+        <ahbdiv>1</ahbdiv>
+        <apb1div>2</apb1div>
+        <apb2div>2</apb2div>
+        <usbdiv>6.0</usbdiv>
+        <hicktousb>1</hicktousb>
+        <hicktosclk>0</hicktosclk>
+        <clkout1>0</clkout1>
+        <clkout1div1>1</clkout1div1>
+        <clkout1div2>1</clkout1div2>
+        <clkout2>0</clkout2>
+        <clkout2div1>1</clkout2div1>
+        <clkout2div2>1</clkout2div2>
+        <systicsel>8</systicsel>
+    </ClockConfiguration>
+    <PINInfo>
+        <PinSub pinname="PH0/HEXT_IN" signalname="CRM_HEXT_IN" signaltype="2"/>
+        <PinSub pinname="PH1/HEXT_OUT" signalname="CRM_HEXT_OUT" signaltype="2"/>
+        <PinSub pinname="PA0" signalname="ADC1_IN0" signaltype="2"/>
+        <PinSub pinname="PA1" signalname="ADC1_IN1" signaltype="2"/>
+        <PinSub pinname="PA2" signalname="ADC1_IN2" signaltype="2"/>
+        <PinSub pinname="PA3" signalname="ADC1_IN3" signaltype="2"/>
+        <PinSub pinname="PA4" signalname="ADC1_IN4" signaltype="2"/>
+        <PinSub pinname="PA5" signalname="ADC1_IN5" signaltype="2"/>
+        <PinSub pinname="PA6" signalname="ADC1_IN6" signaltype="2"/>
+        <PinSub pinname="PA7" signalname="ADC1_IN7" signaltype="2"/>
+        <PinSub pinname="PB0" signalname="ADC1_IN8" signaltype="2"/>
+        <PinSub pinname="PB1" signalname="ADC1_IN9" signaltype="2"/>
+        <PinSub pinname="PA9" signalname="USART1_TX" signaltype="2"/>
+        <PinSub pinname="PA10" signalname="USART1_RX" signaltype="2"/>
+        <PinSub pinname="PA11" signalname="USART6_TX" signaltype="2"/>
+        <PinSub pinname="PA12" signalname="USART6_RX" signaltype="2"/>
+        <PinSub pinname="PA13" signalname="DEBUG_JTMS_SWDIO" signaltype="2"/>
+        <PinSub pinname="PA14" signalname="DEBUG_JTCK_SWCLK" signaltype="2"/>
+        <PinSub pinname="PB3" signalname="UART7_RX" signaltype="2"/>
+        <PinSub pinname="PB4" signalname="UART7_TX" signaltype="2"/>
+    </PINInfo>
+    <ProjectInfomation>
+        <ProjectName>FluxWhisper</ProjectName>
+        <ProjectLocation>D:/OneDrive/DataFlux/FluxWhisper/pcb</ProjectLocation>
+        <ToolchainIDE>MDK_V5</ToolchainIDE>
+        <ARMCompiler>0</ARMCompiler>
+        <KeepUserCode>true</KeepUserCode>
+        <NotUsedPinAnalog>false</NotUsedPinAnalog>
+        <CodeSplitIP>true</CodeSplitIP>
+        <AddNecessaryFileFlag>true</AddNecessaryFileFlag>
+        <MinHeapSize>0x200</MinHeapSize>
+        <MinStackSize>0x400</MinStackSize>
+        <UseFirmware>true</UseFirmware>
+        <PackageVersion></PackageVersion>
+    </ProjectInfomation>
+</Root>
